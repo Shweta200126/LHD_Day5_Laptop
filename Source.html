@@ -1,0 +1,94 @@
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+.lid-outer {
+  padding: 6px 8px 12px 8px;
+  background-color: #39384A;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+.webcam {
+  height: 3px;
+  width: 3px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  background-color: #444444;
+  margin-bottom: 3px;
+}
+
+.lid-inner {
+  height: 200px;
+  width: 320px;
+  background-color: white;
+}
+
+.bottom-body {
+  height: 5px;
+  background-color: #a5a5ab;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.groove {
+  height: 5px;
+  width: 50px;
+  box-shadow: 3px -1px 3px 1px #444444 inset;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.bezzel-bottom {
+  height: 8px;
+  background-color: #a5a5ab;
+  width: 450px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.shadow {
+  width: 420px;
+  box-shadow: 0 1px 8px 1px black;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="lid-outer">
+    <div class="webcam"></div>
+    <div class="lid-inner"></div>
+  </div>
+  <div class="bottom-body">
+    <div class="groove"></div>
+  </div>
+  <div class="bezzel-bottom"></div>
+  <div class="shadow"></div>
+</div>
+</body>
+</html>
